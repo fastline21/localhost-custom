@@ -40,7 +40,7 @@
                                 echo "<tr>";
                                 for ($column = 0; $column < $perRow; $column++) {
                                     if ($currentFile >= $countFiles) {
-                                        echo "<td></td>";
+                                        exit();
                                     } else {
                                         if (is_dir($cloneFiles[$currentFile])) {
                                             echo "<td class='item'><a class='item-link' href='./" . $cloneFiles[$currentFile] . "'><i style='margin-right: 10px;' class='far fa-folder'></i>" . $cloneFiles[$currentFile] . "</a></td>";
