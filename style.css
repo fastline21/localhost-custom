@@ -1,0 +1,27 @@
+.title {
+    color: #FB7A24;
+    margin-bottom: 50px;
+}
+.item-link {
+    color: #FB7A24;
+    width: 100%;
+    display: block;
+    padding: 12px;
+}
+.item:hover,
+.item-link:hover {
+    text-decoration: none;
+    background-color: #FB7A24;
+    color: #FFFFFF;
+}
+td.item {
+    border: 3px solid transparent;
+    padding: 0;
+}
+.item-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;            
+}
